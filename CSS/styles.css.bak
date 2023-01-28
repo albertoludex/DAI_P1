@@ -1,0 +1,273 @@
+
+
+
+*{	
+
+/*border: 1px solid blue;*/
+	
+/*margin:10 px; */
+
+font-family: 'Roboto', sans-serif;
+ 
+}
+
+
+
+#general{
+	
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left:0;
+	position: absolute;
+	text-align:center;
+		background-color: #01b7c1;
+
+	
+	
+}
+
+
+#header{
+	
+	top: 0px;
+	background-color: #01b7c1;
+	width: 100%;
+	height: 11%;
+	overflow:hidden;
+	height:auto;
+	poition:fixed;
+	
+}
+
+
+
+#nav{
+	
+	
+	
+	float:right;
+	width: 80%;
+	height: auto;
+ 
+}
+
+
+
+
+#content{
+	
+	width: auto;
+	height: auto;
+	
+	margin-top:5%;
+	display:inline-table;
+	text-align:center;
+	padding-bottom: 20px;
+	
+	
+}
+
+#redes{
+	
+	padding-top: 1%;
+	float:left;
+	text-align:center;
+	width: 50%;
+	height: 100%;
+	height:auto;
+	
+}
+
+#dudas{
+	
+	padding-top: 1%;
+	float:right;
+	width: 50%;
+	height: 100%;
+	height:auto;
+	
+}
+
+
+
+
+
+#footer p{
+	
+	
+	color:green;
+	
+}
+
+button{
+	
+	margin-top: 7%;
+	
+}
+
+input[type=submit]{
+	
+	margin-top: 7%;
+	
+}
+
+
+
+#consultar{
+	
+	display: none;
+	
+}
+
+#insertar{
+	
+	display: none;
+	
+}
+
+#modificar{
+	
+	display: none;
+	
+}
+
+
+
+/*Cambiar aspectoboton submit para que parezca un enlace*/
+
+#atras{
+	
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #FFFFFF;
+  text-decoration: underline;
+  cursor: pointer;
+	
+
+}
+
+
+
+
+
+/*MENU*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+
+.botonadmin {
+  
+  text-decoration: none;
+  background-color: #38e914;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  cursor:pointer;
+}
+
+
+
+.enlace_formulario_modificar{
+	
+	cursor:pointer;
+	color:green;
+	
+	
+}
+
+
+.buscador{
+	
+	
+	margin-left:auto;
+	margin-right:auto;
+
+	
+}
+
+
+
+p{
+	
+	font-size: 80%;
+	
+}
+
+
+
+/*ASPECTO BOTONES MENU*/
+
+li {
+  float: left;
+  
+}
+
+li a.active{
+	
+	background-color: #b24a4c;
+	color: white;
+	
+	
+}
+
+li a:hover(.active) {
+  background-color: #b24a4c;
+  color: white;
+
+}
+
+ul {
+	
+  
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b24a4c;
+  
+  
+}
+
+
+li a {
+  
+  
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+	
+  text-decoration: none;
+}
+
+
+
+
